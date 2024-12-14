@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 20px;
+        }
+        
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+        .vegetarian {
+            font-weight: bold;
+        }
+        
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Example Cafe Menu</h1>
+    <p>
+        <a href="#starters">Starters</a> |
+        <a href="#main-courses">Main Courses</a> |
+        <a href="#desserts">Desserts</a>
+    </p>
+
+    <h2 id="starters">Starters</h2>
+    <ul>
+        <li>Chestnut and Mushroom Goujons <span class="vegetarian">(v)</span></li>
+        <li>Goat Cheese Salad <span class="vegetarian">(v)</span></li>
+        <li>Honey Soy Chicken Kebabs</li>
+        <li>Seafood Salad</li>
+    </ul>
+    <p><a href="#top">Back to top</a></p>
+
+    <h2 id="main-courses">Main Courses</h2>
+    <ul>
+        <li>Spinach and Ricotta Roulade <span class="vegetarian">(v)</span></li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Sauce</li>
+        <li>Mushroom Wellington <span class="vegetarian">(v)</span></li>
+    </ul>
+    <p><a href="#top">Back to top</a></p>
+
+    <h2 id="desserts">Desserts</h2>
+    <ul>
+        <li>Lemon Sorbet <span class="vegetarian">(v)</span></li>
+        <li>Chocolate Mud Pie <span class="vegetarian">(v)</span></li>
+        <li>Pecan Pie <span class="vegetarian">(v)</span></li>
+        <li>Selection of Fine Cheeses from Around the World</li>
+    </ul>
+    <p><a href="#top">Back to top</a></p>
+
+    <footer>
+        Items marked with a <span class="vegetarian">(v)</span> are suitable for vegetarians.
+    </footer>
+</body>
+
+</html>
